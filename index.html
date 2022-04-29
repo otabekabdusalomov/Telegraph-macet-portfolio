@@ -4,15 +4,180 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Scss-bem-starter</title>
+    <title>Maket telegraf </title>
 </head>
 <body>
-    <!--HEAD-->
-    <header></header>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__container">
+            <a class="header__logo" href="#">
+                <img class="header__logo-img" src="./img/logo.svg" alt="telegraoph logo" width="92" height="24">
+            </a>
+            
+            <a class="header__link" href="#">Try Beta</a>
+            
+        </div>
+    </header>                                                           
+    
     <!--MAIN-->
-    <main></main>
-    <!--FOOTER-->
-    <footer></footer>
-</body>
-</html>
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__left">
+                    <h1 class="hero__heading">Simple. Secure. Reliable messaging.</h1>
+                    
+                    <p class="hero__desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
+                    
+                    <button class="button">About Us</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="services">
+            <div class="container services__container">
+                <ul class="services__list">
+                    <li class="services__item">
+                        <img class="services__list-img" src="./img/icon1.png" alt="android icon" width="60" height="60">
+                        <h2 class="services__list-heading">Android</h2>
+                        <p class="services__list-desc">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                        <span class="services__list-free">
+                            Try Beta For Free
+                            
+                        </span>
+                        <img class="services__list-free-icon" src="./img/download.png" alt="download" width="21" height="20">
+                    </li>
+                    
+                    <li class="services__item">
+                        <img class="services__list-img" src="./img/icon2.png" alt="android icon" width="60" height="60">
+                        <h2 class="services__list-heading">Android</h2>
+                        <p class="services__list-desc">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                        <span class="services__list-free">
+                            Try Beta For Free
+                            
+                        </span>
+                        <img class="services__list-free-icon" src="./img/download.png" alt="download" width="21" height="20">
+                    </li>
+                    
+                    <li class="services__item">
+                        <img class="services__list-img" src="./img/icon3.png" alt="android icon" width="102" height="60">
+                        <h2 class="services__list-heading">Android</h2>
+                        <p class="services__list-desc">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                        <span class="services__list-free">
+                            Try Beta For Free
+                            
+                        </span>
+                        <img class="services__list-free-icon" src="./img/download.png" alt="download" width="21" height="20">
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+        <section class="personal-blog">
+            <div class="container personal-blog__container">
+                <img class="personal-blog__img" src="./img/blog-group.png" alt="blog group" width="577" height="550">
+                <div class="personal-blog__left">
+                    
+                    
+                    <h2 class="personal-blog__heading">Simple, Personal, Real Time Messaging</h2> 
+                    
+                    <p class="personal-blog__desc">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                        <br> <br>    
+                        
+                        If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.</p>
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- COMMUNITY -->
+            <section class="community">
+                <div class="container community__container">
+                    <div class="community__left">
+                        <h2 class="community__heading">Sharing Cool Stuff With Your Community</h2>
+                        <p class="community__desc">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
+                            <br> <br>
+                            If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.</p>
+                        </div>
+                        <div class="community__right">
+                            <ul class="community__right-list">
+                                
+                                <li class="community__right-item">
+                                    <img class="community__right-img" src="./img/community-icon1.png" alt="logo" width="60" height="60">
+                                    <h4 class="community__right-heading">Security by Default</h4>
+                                    <p class="community__right-desc">It is a long established fact that a reader will be distracted by the readable content.</p>
+                                </li>
+                                
+                                <li class="community__right-item community__right-item-one">
+                                    <img class="community__right-img" src="./img/community-icon2.png" alt="logo" width="60" height="60">
+                                    <h4 class="community__right-heading">Security by Default</h4>
+                                    <p class="community__right-desc">It is a long established fact that a reader will be distracted by the readable content.</p>
+                                </li>
+                                
+                                <li class="community__right-item community__right-item-three">
+                                    <img class="community__right-img" src="./img/community-icon3.png" alt="logo" width="60" height="60">
+                                    <h4 class="community__right-heading">Security by Default</h4>
+                                    <p class="community__right-desc">It is a long established fact that a reader will be distracted by the readable content.</p>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="groups">
+                    <div class="container groups__container">
+                        <img class="groups__img" src="./img/servieves bg.png" alt="logo" width="582" height="763">
+                        
+                        <div class="groups__left">
+                            <h2 class="groups__heading">Keep In Touch With The Groups Of People.</h2>
+                            
+                            <p class="groups__desc">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- APPS -->
+                <section class="apps">
+                    <div class="container apps__container">
+                        <div class="apps__top">
+                            <h2 class="apps__heading">Let’s Start With Quick App</h2>
+                            
+                            <p class="apps__desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            
+                            <button class="button">About Us</button>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!--FOOTER-->
+            <footer class="footer">
+                <div class="container footer__container">
+                    <div class="footer__left">
+                        <p class="footer__desc">© Telegraph. 2020 — All rights reserved.</p>
+                    </div>
+                    
+                    <nav class="footer__nav">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a class="footer__link" href="#">Twitter</a>
+                            </li>
+                            
+                            <li class="footer__item">
+                                <a class="footer__link" href="#">Instagrem</a>
+                            </li>
+                            
+                            <li class="footer__item">
+                                <a class="footer__link" href="#">Facebook</a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </footer>
+        </body>
+        </html>

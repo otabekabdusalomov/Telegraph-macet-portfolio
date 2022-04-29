@@ -1,1 +1,22 @@
-//BU YERDA BUTTONLAR YASHAYDI
+.button{
+    background: #FF0043;
+    box-shadow: 0px 5px 50px rgba(255, 0, 67, 0.1);
+    border-radius: 30px;
+    top: calc(50% - 20px/2); 
+    font-family: 'SourceSansPro';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 20px 50px;
+    border: none;
+    margin-bottom: 158px;
+
+    &:hover{
+        opacity: 0.8;
+    }
+    &:active{
+        opacity: 0.4;
+    }
+    
+}
